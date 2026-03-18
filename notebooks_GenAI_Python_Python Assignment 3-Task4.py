@@ -1,0 +1,12 @@
+##Task4: Using map(): Apply GST to list of prices
+
+prices=[100,250,400,1200,50]
+
+gst = lambda price: price+(0.18*price)
+
+price_with_gst = list(map(gst,prices))
+print("Original prices:",prices)
+print("Prices after GST:",price_with_gst)
+
+
+
